@@ -16,14 +16,16 @@ function setLinks(newLinks: TocLink[]) {
     <NuxtLayout name="post">
         <Suspense timeout="0">
             <template #default>
-                <PostRender v-on:setLinks="setLinks"/>
+                <div class="p-3">
+                    <PostRender v-on:setLinks="setLinks" />
+                </div>
             </template>
             <template #fallback>
                 <Loader class="mt-[150px]" />
             </template>
         </Suspense>
         <template #right v-if="links.length > 0">
-            <PostAnchors :links="links"/>
+            <PostAnchors :links="links" />
         </template>
     </NuxtLayout>
 </template>
