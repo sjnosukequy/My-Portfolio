@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Spotify inspired mobile app",
+            "description": "A mobile application clone inspired by Spotify, including an admin panel and artist page, with song data integration from YouTube.",
+            "date": "April 2024",
+            "urlGithub": "https://github.com/sjnosukequy/Spotify_UI",
+            "urlWeb": "",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "title": "Coffee Warehouse Management Website with AI-Driven Coffee Price Forecasting",
+            "description": "A warehouse management system featuring AI models for coffee price prediction, daily price data crawling, and a coffee-related chatbot.",
+            "date": "September 2024",
+            "urlGithub": "https://github.com/sjnosukequy/COFFE_PREDICT",
+            "urlWeb": "",
+            "image": "/img_proj/Coffee_Warehouse.webp"
+        },
+        {
+            "id": 3,
+            "title": "NutriAI Planner: AI-Powered Nutrition & Meal Planner App",
+            "description": "An AI-powered nutrition and meal planning app featuring a personalized recommendation engine, calorie tracking, and restaurant data crawling.",
+            "date": "March 2025",
+            "urlGithub": "",
+            "urlWeb": "https://landing-page-nutrient-app.vercel.app",
+            "image": "/img_proj/nutriAI.webp"
+        },
+        {
+            "id": 4,
+            "title": "Primas Homepage design",
+            "description": "Designed and developed the company's homepage (English and Vietnamese versions) for Primas, a contact center company, using WordPress.",
+            "date": "October 2025",
+            "urlGithub": "",
+            "urlWeb": "https://primas.net/",
+            "image": ""
+        }
+    ]
+}
