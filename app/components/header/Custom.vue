@@ -7,8 +7,8 @@ const route = useRoute()
 const activeRoute = ref('about')
 const scrollTo = (id: availableRoute) => {
   if (route.path !== '/') {
-    activeRoute.value = id
-    navigateTo(`/#${id}`)
+    navigateTo(`/`)
+    activeRoute.value = 'about'
   }
   else {
     const element = document.getElementById(id)

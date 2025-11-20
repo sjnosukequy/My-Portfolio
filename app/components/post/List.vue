@@ -5,13 +5,14 @@ const posts = ref<ContentCollectionItem[]>([]);
 
 onMounted(async () => {
     const response = await useListPosts();
-    const data = response.value.filter(post => post.title != 'About');
+    // console.log('Fetched posts:', response.value);
+    const data = response.value.filter(post => post.path != "/posts/about");
     posts.value = data;
 });
 </script>
 
 <template>
     <div class="flex flex-col gap-6">
-        <PostItems v-for="(item, index) in posts" :key="index" :title="item.title" :description="item.description" />
+        <PostItems v-for="(item, index) in posts" :key="index" :title="item.title" :description="item.description" :path="item.path" />
     </div>
 </template>

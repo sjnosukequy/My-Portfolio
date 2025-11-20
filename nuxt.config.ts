@@ -2,7 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/scripts", "@nuxt/eslint", "@nuxt/content"],
   css: ["~/assets/css/main.css"],
+  app: {
+    head: {
+      title: 'Sjnosukequy - Vuong Dinh Quy', // default fallback title
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
+  },
 });
