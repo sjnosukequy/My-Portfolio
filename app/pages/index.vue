@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import { computed } from 'vue'
 const colorMode = useColorMode()
 
@@ -14,7 +13,7 @@ const overlayBackground = computed(() => {
       <ClientOnly>
         <div id="about">
           <div class="flex flex-row gap-7 items-end">
-            <UColorModeImage dark="/img/avatar-dark.webp" light="/img/avatar-light.webp" alt="Logo" class="h-20 aspect-square rounded-full" />
+            <ColorImage dark="/img/avatar-dark.webp" light="/img/avatar-light.webp" alt="Logo" class="h-20 aspect-square rounded-full" />
             <div class="flex flex-col gap-1">
               <h2 class="font-semibold text-2xl">Vuong Dinh Quy</h2>
               <span class="font-normal text-gray-10">Just a developer who dreams big</span>
