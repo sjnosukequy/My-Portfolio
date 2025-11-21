@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/scripts", "@nuxt/eslint", "@nuxt/content"],
+  modules: [
+    "@nuxt/ui",
+    "@nuxt/image",
+    "@nuxt/scripts",
+    "@nuxt/eslint",
+    "@nuxt/content",
+    "nuxt-easy-lightbox",
+  ],
   css: ["~/assets/css/main.css"],
   app: {
     head: {

@@ -28,9 +28,9 @@ const overlayBackground = computed(() => {
 <template>
   <UCollapsible class="flex flex-col gap-5 cursor-pointer collapsible">
     <UTooltip :delay-duration="0" :text="props.title">
-      <div class="flex flex-row gap-5 items-end text-lg">
-        <span class="font-medium line-clamp-1 max-w-[60%] font-serif">{{ props.title }}</span>
-        <div class="flex-1 border-t-2 border-dashed h-2.5" :class="isDarkBorder"></div>
+      <div class="flex flex-col md:flex-row md:items-end gap-5 text-lg">
+        <span class="font-medium line-clamp-1 md:max-w-[60%] font-serif">{{ props.title }}</span>
+        <div class="flex-1 border-t-2 border-dashed h-2.5 hidden md:block" :class="isDarkBorder"></div>
         <span class="font-serif whitespace-nowrap" :class="isDarkText">{{ props.date }}</span>
       </div>
     </UTooltip>

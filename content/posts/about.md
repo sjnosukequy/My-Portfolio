@@ -36,7 +36,7 @@ These are the technologies and skills I reach for when starting a new project. I
 
 Experience is where theory meets reality. Here are some of the places I've applied my skills:
 
-### Business Analyst Intern at Primas Group
+### Business Analyst at Primas Group
 **Ho Chi Minh City | July 2024 - July 2025**
 
 * Played the role of a feature detective, **conducting competitor research** to pin down key features for upcoming product releases.

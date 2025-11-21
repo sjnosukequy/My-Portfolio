@@ -7,7 +7,7 @@
   <UContainer class="max-w-3xl" id="contacts">
     <div class="flex flex-row gap-2 items-end p-5">
       <div class="flex-1">
-        <h3 class="font-semibold text-xl font-serif">Contact me at:</h3>
+        <h3 class="font-semibold text-xl font-serif">Contact me at</h3>
         <div class="flex flex-row gap-3 mt-3">
           <UButton
             size="xl"
@@ -47,7 +47,7 @@
           ></UButton>
         </div>
       </div>
-      <IconFlowers height="100px" />
+      <IconFlowers height="100px" class="hidden lg:block"/>
     </div>
   </UContainer>
 </template>

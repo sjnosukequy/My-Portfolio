@@ -16,7 +16,7 @@ function setLinks(newLinks: TocLink[]) {
     <NuxtLayout name="post">
         <Suspense timeout="0">
             <template #default>
-                <div class="p-3">
+                <div class="p-5">
                     <PostRender v-on:setLinks="setLinks" />
                 </div>
             </template>

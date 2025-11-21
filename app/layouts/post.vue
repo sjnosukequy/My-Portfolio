@@ -11,7 +11,7 @@
                 <slot name="right" />
             </UPageAside>
         </template>
-        <UPageBody>
+        <UPageBody class="px-4 sm:px-6">
             <slot />
         </UPageBody>
     </UPage>

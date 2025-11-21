@@ -3,11 +3,16 @@ import { ref } from 'vue'
 import projectObj from '@/assets/data/projects.json' with { type: 'json' }
 
 const dataList = ref(projectObj.projects)
+const imagesRef = ref(dataList.value.map((item, index) => ({
+  index: index,
+  src: item.image,
+  title: item.title
+})).filter((item) => item.src.length > 0))
 </script>
 
 <template>
   <div class="flex flex-col gap-6">
-    <Carousel :images="dataList.map((item) => item.image).filter((image) => image.length > 0)" />
+    <Carousel :images="imagesRef" />
     <ProjectItems
       v-for="item in dataList"
       :key="item.id"
