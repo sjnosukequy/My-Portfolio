@@ -3,11 +3,13 @@ import { ref } from 'vue'
 import projectObj from '@/assets/data/projects.json' with { type: 'json' }
 
 const dataList = ref(projectObj.projects)
-const imagesRef = ref(dataList.value.map((item, index) => ({
-  index: index,
+const imagesRef = ref(dataList.value.map((item) => ({
   src: item.image,
   title: item.title
-})).filter((item) => item.src.length > 0))
+})).filter((item) => item.src.length > 0).map((item, index) => ({
+  index: index,
+  ...item
+})))
 </script>
 
 <template>
