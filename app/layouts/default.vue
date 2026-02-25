@@ -1,9 +1,19 @@
 <template>
-    <UApp>
+    <UPage>
         <HeaderCustom />
-        <UMain class="mb-10">
+        <template #left>
+            <UPageAside class="lg:flex flex-col h-full justify-end">
+                <slot name="left" />
+            </UPageAside>
+        </template>
+        <template #right>
+            <UPageAside>
+                <slot name="right" />
+            </UPageAside>
+        </template>
+        <UPageBody class="mb-10">
             <slot />
-        </UMain>
+        </UPageBody>
         <FooterCustom />
-    </UApp>
+    </UPage>
 </template>

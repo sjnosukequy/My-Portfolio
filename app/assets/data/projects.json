@@ -35,6 +35,24 @@
             "urlGithub": "",
             "urlWeb": "https://primas.net/",
             "image": ""
+        },
+        {
+            "id": 5,
+            "title": "Professional CV Editor with AI Assistance",
+            "description": "A full-featured resume builder designed for engineering professionals, supporting manual editing, AI-powered CV generation, save/load functionality, and export options in PDF and DOCX formats.",
+            "date": "March 2025",
+            "urlGithub": "",
+            "urlWeb": "https://sjnosukequy.github.io/Professional-CV-Editor/",
+            "image": "/img_proj/professional_cv_editor.webp"
+        },
+        {
+            "id": 6,
+            "title": "Bill Splitting App",
+            "description": "A flexible bill-splitting application that supports multiple bill items, discounts, taxes, tips, and advanced split methods per person, with the ability to export final results as PNG images.",
+            "date": "February 2026",
+            "urlGithub": "",
+            "urlWeb": "https://sjnosukequy.github.io/Bill-Spliter/",
+            "image": "/img_proj/bill_splitter.webp"
         }
     ]
 }

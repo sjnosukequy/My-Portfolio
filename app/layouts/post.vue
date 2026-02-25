@@ -1,6 +1,6 @@
 <template>
-    <HeaderCustom />
     <UPage>
+        <HeaderCustom />
         <template #left>
             <UPageAside>
                 <slot name="left" />
@@ -14,6 +14,6 @@
         <UPageBody class="px-4 sm:px-6">
             <slot />
         </UPageBody>
+        <FooterCustom />
     </UPage>
-    <FooterCustom />
 </template>
