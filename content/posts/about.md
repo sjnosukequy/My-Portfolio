@@ -1,6 +1,6 @@
 # Who Am I?
 
-Hello! I'm Vuong Dinh Quy, and I'm currently wrapping up my **Information Technology Engineer** degree (3.64/4) at **Ho Chi Minh City University of Technology and Engineer** _(formerly known as Ho Chi Minh City University of Technology and Education)_.
+Hello! I'm Vuong Dinh Quy, and I'm an **IT Engineer** graduated from **Ho Chi Minh City University of Technology and Engineer** _(formerly known as Ho Chi Minh City University of Technology and Education)_.
 
 If you're looking for me, you'll probably find me knee-deep in **TypeScript** files or wrestling with a new **PostgreSQL** schema. I specialize in turning complex data problems into clean, functional applications. Whether it's **crawling web data** to feed an AI model or architecting a **full-stack system** with Next.js, Nuxt or React Native, I love building systems that are both elegant and robust.
 

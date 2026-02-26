@@ -33,7 +33,7 @@ const overlayBackground = computed(() => {
               <br />
               <br />
               <span>In case you want to learn more
-                <ULink to="/posts/about" class="underline font-serif italic fun-text">about me?</ULink>
+                <NuxtLink to="/posts/about" class="underline font-serif italic fun-text">about me?</NuxtLink>
               </span>
             </BlockQuote>
           </div>

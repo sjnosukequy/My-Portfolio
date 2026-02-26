@@ -19,12 +19,12 @@ function createLink(title: string) {
 </script>
 
 <template>
-    <ULink :to="props.path" class="text-inhert">
+    <NuxtLink :to="props.path" class="text-inhert">
         <div class="flex flex-row gap-5 items-end text-lg cursor-pointer post-item">
             <span class="font-medium line-clamp-1 md:max-w-[70%] font-serif">{{ props.title }}</span>
             <div class="flex-1 border-t-2 border-dashed h-2.5 hidden md:block" :class="isDarkBorder"></div>
         </div>
-    </ULink>
+    </NuxtLink>
 </template>
 
 <style scoped>
