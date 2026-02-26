@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/scripts", "@nuxt/eslint", "@nuxt/content", "nuxt-easy-lightbox"],
   css: ["~/assets/css/main.css"],
   app: {
+    baseURL: "/My-Portfolio/",
     head: {
       title: "Sjnosukequy - Vuong Dinh Quy", // default fallback title
       htmlAttrs: {
