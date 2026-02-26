@@ -16,7 +16,7 @@
             "date": "September 2024",
             "urlGithub": "https://github.com/sjnosukequy/COFFE_PREDICT",
             "urlWeb": "",
-            "image": "/img_proj/Coffee_Warehouse.webp"
+            "image": "img_proj/Coffee_Warehouse.webp"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "date": "March 2025",
             "urlGithub": "",
             "urlWeb": "https://landing-page-nutrient-app.vercel.app",
-            "image": "/img_proj/nutriAI.webp"
+            "image": "img_proj/nutriAI.webp"
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "date": "March 2025",
             "urlGithub": "",
             "urlWeb": "https://sjnosukequy.github.io/Professional-CV-Editor/",
-            "image": "/img_proj/professional_cv_editor.webp"
+            "image": "img_proj/professional_cv_editor.webp"
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@
             "date": "February 2026",
             "urlGithub": "",
             "urlWeb": "https://sjnosukequy.github.io/Bill-Spliter/",
-            "image": "/img_proj/bill_splitter.webp"
+            "image": "img_proj/bill_splitter.webp"
         }
     ]
 }

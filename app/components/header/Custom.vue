@@ -46,7 +46,7 @@ const items = computed<NavigationMenuItem[]>(() => [
   },
   {
     label: 'CV',
-    href: '/CV_Vuong_Dinh_Quy.pdf',
+    href: useAsset('/CV_Vuong_Dinh_Quy.pdf'),
     target: '_blank',
     rel: 'noopener',
     external: true,

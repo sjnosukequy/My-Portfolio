@@ -10,13 +10,12 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/scripts", "@nuxt/eslint", "@nuxt/content", "nuxt-easy-lightbox"],
   css: ["~/assets/css/main.css"],
   app: {
-    baseURL: "/My-Portfolio/",
     head: {
       title: "Sjnosukequy - Vuong Dinh Quy", // default fallback title
       htmlAttrs: {
         lang: "en",
       },
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "favicon.svg" }],
     },
   },
 });
