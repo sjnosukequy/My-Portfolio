@@ -30,7 +30,7 @@ const onHide = () => (visibleRef.value = false);
     <UCarousel v-slot="{ item }" loop wheel-gestures :items="props.images" :ui="{
       item: 'md:basis-1/2'
     }" :autoplay="{ delay: 5000 }" align="start">
-      <NuxtImg :src="useAsset(item.src)" class="rounded-md border-[1.5px] aspect-video object-cover object-left cursor-pointer" :class="isDark" @click="() => showImg(item.index)" />
+      <img :src="useAsset(item.src)" class="rounded-md border-[1.5px] aspect-video object-cover object-left cursor-pointer" :class="isDark" @click="() => showImg(item.index)" />
     </UCarousel>
     <VueEasyLightbox :visible="visibleRef" :imgs="props.images" :index="indexRef" @hide="onHide" loop="true" move-disabled="true" />
   </div>
