@@ -87,4 +87,4 @@ My portfolio is built on tackling real-world problems—some fun, some serious:
 
 I believe the best developers are those who are perpetual students. I’ve enjoyed roles ranging from **Business Analyst Intern** to **Lead Developer** (as a project Captain). The common thread is always **problem-solving**.
 
-_(P.S. If you're wondering about the clean design, my portfolio takes inspiration from the fantastic work done on [tasky.nuxt.dev](https://tasky.nuxt.dev/).)_
+_(P.S. If you're wondering about the clean design, my portfolio takes inspiration from the fantastic work done on [tasky.nuxt.dev](https://tasky.nuxt.dev/){:target="_blank"}.)_
